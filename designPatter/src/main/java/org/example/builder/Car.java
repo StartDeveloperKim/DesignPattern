@@ -1,15 +1,15 @@
-package org.example.builderPatter;
+package org.example.builder;
 
 public class Car {
 
-    private String engine;
-    private String wheel;
-    private String window;
-    private String handle;
-    private String chair;
+    private final String engine;
+    private final String wheel;
+    private final String window;
+    private final String handle;
+    private final String chair;
 
-    private boolean isHeatedSeat;
-    private boolean isCoolingSeat;
+    private final boolean isHeatedSeat;
+    private final boolean isCoolingSeat;
 
     private Car(CarBuilder carBuilder) {
         this.engine = carBuilder.engine;

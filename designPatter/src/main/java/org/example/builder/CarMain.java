@@ -1,4 +1,4 @@
-package org.example.builderPatter;
+package org.example.builder;
 
 public class CarMain {
     public static void main(String[] args) {
